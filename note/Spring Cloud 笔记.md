@@ -73,7 +73,7 @@
 
 `springcloud`是一种利用`springboot`框架搭建的解决方案，而在这种项目中一般会存在多个微服务，而`Eureka Server`就是用来管理这些为服务的。
 
-![2](.\assert\2.png)
+![2](./assert/2.png)
 
 下面给出其`pom`文件：
 
@@ -187,7 +187,7 @@ java.lang.TypeNotPresentException: Type javax.xml.bind.JAXBContext not present
 
 此时启动，使用地址`localhost:8880`即可访问。
 
-![3](.\assert\3.png)
+![3](./assert/3.png)
 
 ## 1.3 user-client用户管理微服务搭建
 
@@ -243,7 +243,7 @@ eureka:
 
 下面给启动类加上`@EnableEurekaClient`注解，然后启动`eureka-server`(先启动)和本应用。
 
-![4](.\assert\4.png)
+![4](./assert/4.png)
 
 这里可以看到我们的用户微服务就注册上去了。
 
